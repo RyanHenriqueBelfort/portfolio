@@ -9,7 +9,7 @@ import eventon from '../assets/eventon.png'
 
 export function Projects() {
   return (
-    <div id="projects" className="bg-main-900 px-20 pt-20">
+    <div id="projects" className="bg-main-900 px-20 pt-20 pb-20">
       <h1 className="text-4xl font-bold text-white font-inter pt-20 border-b-8 border-main-200 flex w-36">
         Projetos
       </h1>
