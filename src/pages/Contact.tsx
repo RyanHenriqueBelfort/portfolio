@@ -117,12 +117,12 @@ export function Contact() {
               <TwitterLogo size={32} color="#1DA1F2" />
             </a>
           </div>
-          <a href=".././assets/Curriculo.pdf" download>
-            <button className="bg-main-200 p-2 rounded-md w-full sm:w-2/6  hover:brightness-75 hover:scale-105 duration-500 text-white text-sm sm:text-lg flex justify-center items-center gap-2">
+          <button className="bg-main-200 p-2 rounded-md w-full sm:w-2/6  hover:brightness-75 hover:scale-105 duration-500 text-white text-sm sm:text-lg flex justify-center items-center gap-2">
+            <a href=".././assets/Curriculo.pdf" download className="flex items-center">
               Dowload CV
-              <FileArrowDown size={24} />
-            </button>
-          </a>
+              <FileArrowDown size={24} className="ml-2"/>
+            </a>
+          </button>
         </div>
         <div className="w-full sm:w-1/2 mt-8 sm:mt-0">
           <form
@@ -157,15 +157,12 @@ export function Contact() {
               className="placeholder:text-gray-400 rounded-sm outline-none bg-main-700 border border-main-200 p-2 sm:w-5/6 text-white"
             />
             <div className="cursor-pointer bg-main-200 mt-4 p-2 rounded-md w-full sm:w-2/6 hover:brightness-75 hover:scale-105 duration-500 text-white text-sm sm:text-lg flex justify-center items-center gap-2">
-              <PaperPlaneTilt
-                size={24}
-                color="#fff"
-              />
               <input
                 type="submit"
                 value="Send"
                 className="bg-main-200 cursor-pointer "
               />
+              <PaperPlaneTilt size={24} color="#fff" />
             </div>
           </form>
         </div>

@@ -1,7 +1,6 @@
 import Aos from 'aos'
 import { useEffect } from 'react';
 import reactLogo from "./assets/react.svg";
-import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
 import { Footer } from "./pages/Footer";
 import { Main } from "./pages/Main";
@@ -24,7 +23,6 @@ function App() {
       <Main  aos={"fade-down"}/>
       <Hero  aos={"fade-up"}/>
       <Projects />
-      {/* <About /> */}
       <Contact />
       <Footer />
     </div>
