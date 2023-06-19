@@ -1,4 +1,4 @@
-import aboutImg from "../assets/about-img.svg";
+import meImg from "../assets/about.svg";
 
 import iconJs from "../assets/iconJavaScript.svg";
 import iconCss from "../assets/iconcss.svg";
@@ -94,7 +94,10 @@ export function Hero({ aos }: any) {
               </div>
             </div>
           </div>
-          <img src={aboutImg} alt="" className="w-64 mt-10 lg:mt-0 sm:w-96 lg:-[500px] xl:w-[600px]" />
+          <div className="flex flex-col items-center">
+            <img src={meImg} alt="" className="w-64 mt-10 lg:mt-0 sm:w-96 lg:-[500px] xl:w-[600px]" />
+            <a href="http://www.freepik.com" className="text-gray-400">Designed by stories / Freepik</a>
+          </div>
         </div>
       </div>
     </div>
