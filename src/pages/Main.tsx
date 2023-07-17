@@ -14,7 +14,7 @@ export function Main({ aos }: any) {
             <h1 className="text-white font-pacifico text-4xl sm:text-6xl md:text-[4rem] lg:text-7xl leading-[60px] sm:leading-[70px] md:leading-[70px] lg:leading-[95px] ">
               Ola,
               <br /> Eu sou <span className="text-main-200">R</span>yan,
-              <br /> Desenvolverdor Web
+              <br /> Desenvolverdor Web e Mobile
             </h1>
             <p className="text-gray-400 mt-10">
               Desenvovedor Frontend, Proficiente em React e Node
